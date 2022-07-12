@@ -205,7 +205,7 @@
 
  /* hero-section */
  .hero {
-     padding: 200px;
+     padding: 200px 0px;
  }
 
  .second-title {
@@ -292,7 +292,9 @@
 
  /* fourth-section */
 
-
+ .com-info {
+     padding: 30px 0px;
+ }
 
  .com-title {
      font-weight: 500;
@@ -300,7 +302,6 @@
      line-height: 1.19;
      text-align: center;
      letter-spacing: 0.03em;
-     margin-top: 30px;
      margin-bottom: 10px;
  }
 
@@ -314,7 +315,6 @@
      line-height: 1.19;
      text-align: center;
      letter-spacing: 0.03em;
-     margin-bottom: 30px;
  }
 
  /* footer */
@@ -333,7 +333,10 @@
      font-size: 14px;
      line-height: 1.7;
      letter-spacing: 0.03em;
-     padding-top: 9px;
+ }
+
+ .link-foot {
+     margin-top: 9px;
  }
 
  .ad-foot-col {
@@ -350,13 +353,19 @@
 
  /* portfolio btn */
 
+ .port-info {
+     padding-top: 20px;
+     padding-bottom: 20px;
+     border: 1px solid #EEEEEE;
+     border-top: none;
+ }
+
  .cont-port {
-     padding-bottom: 94px;
+     padding: 94px 0px;
  }
 
  .filter-list {
      display: flex;
-     margin-top: 94px;
      margin-bottom: 50px;
      justify-content: center;
      gap: 8px;
@@ -378,12 +387,8 @@
 
  }
 
- .btn-shadow {
-     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
- }
 
  .card-port {
-     border: 1px solid var(--tenth-color);
      width: 370px;
  }
 
@@ -392,7 +397,6 @@
      line-height: 2;
      letter-spacing: 0.06em;
      width: 322px;
-     margin-top: 20px;
      margin-bottom: 4px;
      margin-left: 24px;
      margin-right: 24px;
@@ -404,5 +408,4 @@
      letter-spacing: 0.03em;
      margin-left: 24px;
      margin-right: 24px;
-     margin-bottom: 20px;
  }
