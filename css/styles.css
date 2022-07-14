@@ -319,7 +319,7 @@
 
  /* footer */
  .foot-bg {
-     padding: 60px;
+     padding: 60px 0px;
  }
 
  .logo-foot {
@@ -354,8 +354,7 @@
  /* portfolio btn */
 
  .port-info {
-     padding-top: 20px;
-     padding-bottom: 20px;
+     padding: 20px 24px;
      border: 1px solid #EEEEEE;
      border-top: none;
  }
@@ -398,14 +397,10 @@
      letter-spacing: 0.06em;
      width: 322px;
      margin-bottom: 4px;
-     margin-left: 24px;
-     margin-right: 24px;
  }
 
  .port-p {
      font-size: 16px;
      line-height: 1.88;
      letter-spacing: 0.03em;
-     margin-left: 24px;
-     margin-right: 24px;
  }
